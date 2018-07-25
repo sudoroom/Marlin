@@ -12933,7 +12933,7 @@ void setup() {
     disableStepperDrivers();
   #endif
 
-  MYSERIAL.begin(BAUDRATE);
+  MYSERIAL.begin(115200);//BAUDRATE);
   SERIAL_PROTOCOLLNPGM("start");
   SERIAL_ECHO_START();
 
